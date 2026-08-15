@@ -1,5 +1,53 @@
-# Vue 3 + TypeScript + Vite
+# Social Media Dashboard
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> A Vue 3 and TypeScript dashboard interface built with Vite.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Overview
+
+This repository is part of **Dipesh Thada’s development portfolio**. It is documented to make the project’s purpose, technology choices, and local setup clear for recruiters, collaborators, and learners.
+
+## Technology
+
+| Area | Implementation |
+| --- | --- |
+| Primary stack | Vue 3, TypeScript, Vite |
+| Repository type | Web application / interface project |
+
+## Getting started
+
+Install the project dependencies and start the local development server.
+
+```bash
+git clone https://github.com/DIPESH-THADA/social-media-dashboard.git
+cd social-media-dashboard
+npm install
+npm run dev
+```
+
+## Available scripts
+
+| Script | Command |
+| --- | --- |
+| `dev` | `vite` |
+| `build` | `vue-tsc -b && vite build` |
+| `preview` | `vite preview` |
+
+## Repository layout
+
+| Path | Purpose |
+| --- | --- |
+| `src/` | Application source code and UI components. |
+| `public/` | Static files served by the application. |
+| `package.json` | Development scripts and dependency manifest. |
+
+## Development notes
+
+This documentation reflects the source currently committed to the repository. Before deploying or extending the project, review environment variables, dependency versions, and any external-service configuration referenced by the codebase.
+
+## Contributing
+
+This is a portfolio and learning project. Suggestions and improvements are welcome through a clearly described issue or pull request. Please keep changes focused, test affected functionality locally, and avoid committing secrets or generated dependency folders.
+
+## License
+
+No license file is currently included in this repository. Add an explicit license before treating the code as reusable by third parties.
